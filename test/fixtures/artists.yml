@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist_photo: MyString
+  artist_name: MyString
+  artist_website: MyString
+  artist_social_media: MyString
+  start_date: 2024-03-05
+  end_date: 2024-03-05
+  bio: MyString
+
+two:
+  artist_photo: MyString
+  artist_name: MyString
+  artist_website: MyString
+  artist_social_media: MyString
+  start_date: 2024-03-05
+  end_date: 2024-03-05
+  bio: MyString
