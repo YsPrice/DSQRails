@@ -85,6 +85,11 @@ test:
 #
 production:
   <<: *default
-  database: my_api_app_production
-  username: my_api_app
-  password: <%= ENV["MY_API_APP_DATABASE_PASSWORD"] %>
+   adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+  host: <%= ENV['DATABASE_HOST'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password:  <%= ENV['DATABASE_PASSWORD'] %>
+  database:  <%= ENV['DATABASE_NAME'] %>
